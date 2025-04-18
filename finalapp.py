@@ -99,7 +99,7 @@ def diagnose(audio_path, image_path):
         diagnosis = analyze_image_with_query(
             query=full_prompt,
             encoded_image=encoded_img,
-            model="llama-3.2-11b-vision-preview"
+            model="llama-3-vision-alpha"
         )
     else:
         diagnosis = "No image provided."

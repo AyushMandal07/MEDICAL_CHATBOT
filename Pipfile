@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-community = "*"
+faiss-cpu = "*"
+pypdf = "*"
+huggingface-hub = "*"
+langchain-huggingface = "*"
+groq = "*"
+pyaudio = "*"
+speechrecognition = "*"
+pydub = "*"
+gtts = "*"
+elevenlabs = "*"
+pygame = "*"
+gradio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
